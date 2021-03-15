@@ -1,5 +1,3 @@
-n = int(input())
-
 def melon(n):
 	if n % 2 != 0 :
 		print('No')
@@ -8,4 +6,6 @@ def melon(n):
 	else:
 		print('Yes')	
 		
+n = int(input())
+
 melon(n)
